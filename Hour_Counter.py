@@ -1,3 +1,5 @@
+# Programa que calcula o horárop em que um evento ficará disponível em determinada quantidade de tempo
+
 from datetime import datetime
 
 now = datetime.now()
