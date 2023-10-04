@@ -7,7 +7,7 @@ current_time = now.strftime("%H:%M")
 hour = int(now.strftime("%H"))
 minute = int(now.strftime("%M"))
 
-print("Current Time =", current_time, hour)
+print("Current Time =", current_time)
 
 howManyH = int(input("How many hours until the event?"))
 howManyM = int(input("How many minutes until the event?"))
