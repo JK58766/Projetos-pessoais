@@ -15,14 +15,14 @@ print(f"{howManyH}:{howManyM} until the event")
 i = 0
 j = 0
 
-while i <= howManyH:
+while i < howManyH:
     hour = hour + 1
     if hour >= 24:
         hour = 0
     
     i = i + 1
 
-while j <= howManyM:
+while j < howManyM:
     minute = minute + 1
     if minute > 60:
         minute = 0
